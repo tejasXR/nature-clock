@@ -682,6 +682,7 @@ GameObject:
   - component: {fileID: 961046449}
   - component: {fileID: 961046448}
   - component: {fileID: 961046447}
+  - component: {fileID: 961046451}
   m_Layer: 5
   m_Name: Canavs - Overlay
   m_TagString: Untagged
@@ -771,6 +772,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &961046451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961046446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464cf6994e6caa6478650ba328447752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  workTime: 5
+  breakTime: 1
+  timerText: {fileID: 425474664}
 --- !u!1 &1098081067
 GameObject:
   m_ObjectHideFlags: 0
