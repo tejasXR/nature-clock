@@ -996,7 +996,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1868964049}
-  streamURL: https://drive.google.com/uc?export=download&id=1vCFSpPyWv0v6LVXieS8ILRofJltnWsT1
+  streamMP3Urls:
+  - https://drive.google.com/uc?export=download&id=1vCFSpPyWv0v6LVXieS8ILRofJltnWsT1
+  streamAACUrls:
+  - https://www.dropbox.com/s/uvipds8w4giw5b6/please-calm-my-mind-125566.aac?dl=1
 --- !u!82 &1868964049
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1007,11 +1010,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 515a9cc3bc771904bb78ee76870d52ef, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
