@@ -1,16 +1,29 @@
+using System;
 using System.Collections;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.UI;
 
 public class MusicStreamer : MonoBehaviour
 {
     [SerializeField] private AudioSource audioSource;
+    [SerializeField] private Slider volumeSlider;
     [SerializeField] private string[] streamMP3Urls;
     [SerializeField] private string[] streamAACUrls;
 
     private bool _streaming;
-    
+
+    private void Awake()
+    {
+        volumeSlider.onValueChanged.AddListener(OnSliderValueChanged);
+    }
+
+    private void OnDestroy()
+    {
+        volumeSlider.onValueChanged.RemoveListener(OnSliderValueChanged);
+    }
+
     private void Start()
     {
         PlayAudio();
@@ -38,6 +51,11 @@ public class MusicStreamer : MonoBehaviour
     public void PlayAudio()
     {
         audioSource.Play();
+    }
+
+    private void OnSliderValueChanged(float newValue)
+    {
+        audioSource.volume = newValue;
     }
     
     IEnumerator GetAudioClip()
