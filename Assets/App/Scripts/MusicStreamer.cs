@@ -26,6 +26,7 @@ public class MusicStreamer : MonoBehaviour
 
     private void Start()
     {
+        audioSource.volume = volumeSlider.value;
         PlayAudio();
         // StartCoroutine(GetAudioClip());
     }
