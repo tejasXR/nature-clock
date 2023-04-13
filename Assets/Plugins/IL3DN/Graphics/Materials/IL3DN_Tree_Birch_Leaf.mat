@@ -17,7 +17,7 @@ Material:
   - _EMISSION
   - _SHOWBACKFACES_ON
   - _SHOWFRONTFACES_ON
-  m_LightmapFlags: 2
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -111,8 +111,8 @@ Material:
     - _AlphaCutoff: 0.5
     - _Bend: 1
     - _BumpScale: 1
-    - _ColorVariationNoise: 1
-    - _ColorVariationScale: 40
+    - _ColorVariationNoise: 0.921
+    - _ColorVariationScale: 67.1
     - _Cull: 0
     - _CullBackFaces: 0
     - _CullFrontFaces: 0
