@@ -9,7 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: IL3DN_Tree_Birch_Bark
   m_Shader: {fileID: 4800000, guid: d827f03f07861fa44bba075d0e131eb5, type: 3}
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _WIND_ON
   m_InvalidKeywords:
   - EFFECT_HUE_VARIATION
   - GEOM_TYPE_BRANCH
@@ -152,7 +153,7 @@ Material:
     - _WiggleRandomisation: 0.26
     - _WiggleSpeed: 0.2
     - _WiggleStrenght: 1
-    - _Wind: 0
+    - _Wind: 1
     - _WindAmplitudeMultiplier: 1
     - _WindQuality: 0
     - _WindStrenght: 0.5

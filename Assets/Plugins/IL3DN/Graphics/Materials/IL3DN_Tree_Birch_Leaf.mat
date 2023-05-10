@@ -9,12 +9,16 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: IL3DN_Tree_Birch_Leaf
   m_Shader: {fileID: 4800000, guid: 5a31b57bf4856e940b34c99ac2bf12b6, type: 3}
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _RECEIVE_SHADOWS_OFF
+  - _WIGGLE_ON
+  - _WIND_ON
   m_InvalidKeywords:
   - EFFECT_HUE_VARIATION
   - GEOM_TYPE_LEAF
   - _BEND_ON
   - _EMISSION
+  - _RECEIVESHADOWS_OFF
   - _SHOWBACKFACES_ON
   - _SHOWFRONTFACES_ON
   m_LightmapFlags: 0
@@ -135,7 +139,7 @@ Material:
     - _Parallax: 0.02
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ReceiveShadows: 1
+    - _ReceiveShadows: 0
     - _Rotation: 0.5
     - _Scale: 0.3
     - _ShadowStrength: 0.5
@@ -160,12 +164,12 @@ Material:
     - _TranslucencyViewDependency: 0
     - _UVSec: 0
     - _WIND_ON: 0
-    - _Wiggle: 0
+    - _Wiggle: 1
     - _WiggleEcho: 0.244
     - _WiggleRandomisation: 0.01
     - _WiggleSpeed: 1
-    - _WiggleStrenght: 1
-    - _Wind: 0
+    - _WiggleStrenght: 0.327
+    - _Wind: 1
     - _WindAmplitudeMultiplier: 1
     - _WindFLoat: 1
     - _WindQuality: 0

@@ -234,8 +234,8 @@ Material:
     - _EnableSunMoonMask: 1
     - _EnableTwinkling: 1
     - _EqHeight: 0.419
-    - _EquatorHeight: 0.433
-    - _EquatorSmoothness: 0.01
+    - _EquatorHeight: 0.63
+    - _EquatorSmoothness: 0.044
     - _Exposure: 0
     - _Fade: 0
     - _Float0: -1
